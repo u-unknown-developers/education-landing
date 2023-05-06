@@ -11,15 +11,15 @@ import { Pagination, Navigation } from 'swiper';
 
 const Courses = () => {
   return (
-    <section className='mt-[280px]  '>
+    <section className='mt-[280px]'>
       <div
-        className='flex gap-[64px] rounded-3xl  pb-[29px] pl-[44px] pr-[53px] pt-[37px] md:flex-col md:items-center md:gap-[26px]  '
+        className='flex gap-[64px] rounded-3xl  pb-[29px] pl-[44px] pr-[53px] pt-[37px]  '
         style={{
           background:
             'linear-gradient(75.05deg, #CCF0F7 -4.65%, #E6F8FB 91.56%)',
         }}
       >
-        <div className='flex flex-col gap-[56px]  '>
+        <div className='flex flex-1 flex-col gap-[56px]  '>
           <h2 className='text-4xl text-black md:text-center'>
             الكورسات الاكثر
             <br /> مشاهدة
@@ -32,7 +32,7 @@ const Courses = () => {
             className='md:hidden'
           />
         </div>
-        <div className=' border-red max-h-[360px] max-w-[848px] border-2  border-solid '>
+        <div className='max-w-full flex-1 '>
           <Swiper
             slidesPerView={1}
             spaceBetween={10}
@@ -47,14 +47,15 @@ const Courses = () => {
             breakpoints={{
               640: {
                 slidesPerView: 1,
+                spaceBetween: 5,
               },
               768: {
                 slidesPerView: 2,
-                spaceBetween: 20,
+                spaceBetween: 5,
               },
               1024: {
                 slidesPerView: 3,
-                spaceBetween: 37,
+                spaceBetween: 5,
               },
             }}
             modules={[Pagination, Navigation]}

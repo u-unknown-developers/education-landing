@@ -7,5 +7,11 @@
   height: 100%;
 }
 
-.swiper-slide {
+.container-xl {
+  max-width: 1280px;
 }
+
+/* .swiper-slide {
+  border: 1px solid red;
+  max-width: 33%;
+} */

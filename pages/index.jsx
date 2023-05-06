@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main className=' mx-auto grid  w-4/5 place-content-center'>
+      <main className='mx-auto  max-w-7xl '>
         <HeroSection />
         {/* <Features /> */}
         <Video />
