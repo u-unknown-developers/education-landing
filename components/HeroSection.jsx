@@ -11,7 +11,7 @@ function HeroSection() {
           background:
             'linear-gradient(75.05deg, #CCF0F7 -4.65%, #E6F8FB 91.56%)',
         }}
-        className='flex flex-row-reverse  items-center justify-center rounded-[24px] px-[66px] pb-[104px] pt-[69px]  sm:flex-col'
+        className='container-xl flex flex-row-reverse items-center justify-center rounded-[24px] px-[66px] pb-[104px] pt-[69px]  lg:flex-col'
       >
         <HeroElement />
         <div className='flex flex-1 flex-col items-start '>

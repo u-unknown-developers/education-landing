@@ -9,91 +9,37 @@
 //   }
 // }
 
-// .social-icons {
-//   @apply space-x-4;
-//   li {
-//     @apply inline-block;
-//     a {
-//       @apply block h-11 w-11 rounded-full border text-center transition-all duration-300 hover:border-primary hover:text-primary;
-
-//       svg {
-//         @apply m-auto h-11;
-//       }
-//     }
-//   }
-// }
-
-// .pagination {
-//   .swiper-pagination-bullet {
-//     @apply h-[15px] w-[15px];
-
-//     &-active-main {
-//       @apply bg-primary;
-//     }
-//   }
-// }
-
-// .feature-card {
-//   &-icon {
-//     @apply relative  overflow-hidden;
-
-//     &::before {
-//       @apply absolute left-0 top-0 -z-[1] h-0 w-full transition-all duration-300 content-[""];
-//     }
-//   }
-
-//   &:hover &-icon::before {
-//     @apply bottom-0 top-auto h-full;
-//   }
-// }
-
 // .testimonial-slider {
 //   background-image: url('data:image/svg+xml,%3Csvg width=%22462%22 height=%22458%22 viewBox=%220 0 462 458%22 fill=%22none%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cpath d=%22M36.9901 53.2939C8.66553 90.8729-.680565 197.569.0380893 247.72 3.02596 456.228 136.937 460.573 283.124 457.125 406.681 454.211 459.969 401.82 461.426 261.777 462.591 149.742 432.9 78.8779 413.134 60.3019 326.242-21.359 89.5954-16.4987 36.9901 53.2939z%22 fill=%22%23fe6019%22/%3E%3C/svg%3E');
 //   @apply h-full bg-contain bg-[center_top] bg-no-repeat;
 // }
 
-// //footer
-// .footer-copy-write {
-//   a {
-//     @apply underline;
+/* @media (min-width: 540px) {
+  .container {
+    max-width: 540px;
+  }
+}
 
-//     &:hover {
-//       @apply hover:text-primary;
-//     }
-//   }
-// }
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
 
-// @keyframes shadowPulse {
-//   0% {
-//     box-shadow: 0 0 0 0 rgba(254, 96, 25, 0.6);
-//   }
-//   70% {
-//     box-shadow: 0 0 0 25px rgba(254, 96, 25, 0);
-//   }
-//   100% {
-//     box-shadow: 0 0 0 0 rgba(254, 96, 25, 0);
-//   }
-// }
+@media (min-width: 992px) {
+  .container {
+    max-width: 992px;
+  }
+}
 
-// @keyframes shadowPulse2 {
-//   0% {
-//     box-shadow: 0 0 0 0 rgba(254, 96, 25, 0.8);
-//   }
-//   70% {
-//     box-shadow: 0 0 0 10px rgba(254, 96, 25, 0);
-//   }
-//   100% {
-//     box-shadow: 0 0 0 0 rgba(254, 96, 25, 0);
-//   }
-// }
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
 
-// fade .fade-up,
-// .fade-left {
-//   opacity: 0;
-// }
-
-// .fade-left {
-//   opacity: 0;
-// }
-
-// // !
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+} */

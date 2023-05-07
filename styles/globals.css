@@ -7,11 +7,22 @@
   height: 100%;
 }
 
-.container-xl {
-  max-width: 1280px;
+.swiper-slide {
+  /* border: 1px solid red;
+  max-width: 33%; */
 }
 
-/* .swiper-slide {
-  border: 1px solid red;
-  max-width: 33%;
-} */
+.container {
+  width: 100%;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  max-width: 1380px;
+}
+.container,
+.container-xl {
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-xl {
+  max-width: 1440px;
+}

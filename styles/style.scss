@@ -6,6 +6,16 @@ body {
   direction: rtl;
 }
 
+.pagination {
+  .swiper-pagination-bullet {
+    @apply h-[15px] w-[15px];
+
+    &-active-main {
+      @apply bg-primary;
+    }
+  }
+}
+
 // .swiper,
 // swiper-container {
 //   overflow: hidden;

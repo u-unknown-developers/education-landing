@@ -1,7 +1,7 @@
 function Video() {
   return (
     <section className='mt-[142px] '>
-      <div className="relative flex h-[715px] justify-center rounded-[25px] bg-[url('/videobg.svg')] bg-cover bg-no-repeat ">
+      <div className="container relative flex h-[715px] justify-center rounded-[25px] bg-[url('/videobg.svg')] bg-cover bg-no-repeat ">
         <div className=' flex flex-col items-center justify-center gap-y-9 '>
           <div className='text-center'>
             <h2 className=' text-5xl  text-black'>استكشف المنصة</h2>

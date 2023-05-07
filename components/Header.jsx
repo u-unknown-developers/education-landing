@@ -1,10 +1,10 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
-const Navbar = () => {
+const Header = () => {
   return (
-    <header className='flex justify-center'>
-      <nav className='flex w-4/5 items-center justify-between'>
+    <header className='container-xl  md:px-16 sm:px-8 '>
+      <nav className='flex items-center justify-between'>
         <Link href='#' className='pe-2'>
           <Image alt='logo' src='/logo.png' width={101} height={51} />
         </Link>
@@ -27,4 +27,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Header;

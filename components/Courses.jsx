@@ -1,25 +1,25 @@
-import React, { useRef, useState } from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { useRef } from 'react';
+import { Navigation, Pagination } from 'swiper';
 import 'swiper/css';
-import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-
+import 'swiper/css/pagination';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import CoursesCard from './CoursesCard';
-import { Pagination, Navigation } from 'swiper';
 
 const Courses = () => {
+  const paginationRef = useRef(null);
+
   return (
     <section className='mt-[280px]'>
       <div
-        className='flex gap-[64px] rounded-3xl  pb-[29px] pl-[44px] pr-[53px] pt-[37px]  '
+        className='container flex gap-[64px] rounded-3xl  py-9 pl-[44px] pr-[53px] lg:flex-col  '
         style={{
           background:
             'linear-gradient(75.05deg, #CCF0F7 -4.65%, #E6F8FB 91.56%)',
         }}
       >
-        <div className='flex flex-1 flex-col gap-[56px]  '>
+        <div className='flex flex-col gap-[56px]  '>
           <h2 className='text-4xl text-black md:text-center'>
             الكورسات الاكثر
             <br /> مشاهدة
@@ -32,30 +32,31 @@ const Courses = () => {
             className='md:hidden'
           />
         </div>
-        <div className='max-w-full flex-1 '>
+        <div className='max-w-[848px]  md:max-w-[500px]'>
           <Swiper
             slidesPerView={1}
             spaceBetween={10}
             dir='rtl'
             pagination={{
               clickable: true,
+              type: 'bullets',
+              el: paginationRef.current,
+              clickable: true,
+              dynamicBullets: true,
+            }}
+            onBeforeInit={(swiper) => {
+              swiper.params.pagination.el = paginationRef.current;
             }}
             navigation={{
               nextEl: '.swiper-button-next',
               prevEl: '.swiper-button-prev',
             }}
             breakpoints={{
-              640: {
-                slidesPerView: 1,
-                spaceBetween: 5,
-              },
               768: {
                 slidesPerView: 2,
-                spaceBetween: 5,
               },
-              1024: {
+              1200: {
                 slidesPerView: 3,
-                spaceBetween: 5,
               },
             }}
             modules={[Pagination, Navigation]}
@@ -111,9 +112,10 @@ const Courses = () => {
               />
             </SwiperSlide>
           </Swiper>
-          <div className='relative'>
+          <div className='relative py-6'>
             <div className='swiper-button-prev'></div>
             <div className='swiper-button-next'></div>
+            <div className='pagination ' ref={paginationRef}></div>
           </div>
         </div>
       </div>
