@@ -13,14 +13,14 @@ const Courses = () => {
   return (
     <section className='mt-[280px]'>
       <div
-        className='container flex gap-[64px] rounded-3xl  py-9 pl-[44px] pr-[53px] lg:flex-col  '
+        className='mx-auto flex max-w-[1256px] justify-between rounded-3xl py-9 pl-[44px] pr-[53px] xl:flex-col xl:items-center lg:flex-col  '
         style={{
           background:
             'linear-gradient(75.05deg, #CCF0F7 -4.65%, #E6F8FB 91.56%)',
         }}
       >
         <div className='flex flex-col gap-[56px]  '>
-          <h2 className='text-4xl text-black md:text-center'>
+          <h2 className='text-4xl text-black  xl:text-center'>
             الكورسات الاكثر
             <br /> مشاهدة
           </h2>
@@ -29,10 +29,10 @@ const Courses = () => {
             alt=''
             width={128}
             height={128}
-            className='md:hidden'
+            className='xl:hidden'
           />
         </div>
-        <div className='max-w-[848px]  md:max-w-[500px]'>
+        <div className='max-w-[848px] xl:py-4 mid:max-w-[551px] md:max-w-[547px] sm:max-w-[258px]'>
           <Swiper
             slidesPerView={1}
             spaceBetween={10}
@@ -52,8 +52,11 @@ const Courses = () => {
               prevEl: '.swiper-button-prev',
             }}
             breakpoints={{
-              768: {
+              700: {
                 slidesPerView: 2,
+              },
+              1024: {
+                slidesPerView: 3,
               },
               1200: {
                 slidesPerView: 3,
@@ -112,11 +115,13 @@ const Courses = () => {
               />
             </SwiperSlide>
           </Swiper>
-          <div className='relative py-6'>
-            <div className='swiper-button-prev'></div>
-            <div className='swiper-button-next'></div>
+          {/* <div className='controls relative py-6'>
+            <div className='mr-auto'>
+              <div className='swiper-button-prev'></div>
+              <div className='swiper-button-next'></div>
+            </div>
             <div className='pagination ' ref={paginationRef}></div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

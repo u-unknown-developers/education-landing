@@ -13,10 +13,10 @@
 }
 
 .container {
+  max-width: 1380px;
   width: 100%;
   padding-right: 2rem;
   padding-left: 2rem;
-  max-width: 1380px;
 }
 .container,
 .container-xl {
