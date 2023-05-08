@@ -5,6 +5,7 @@ import Video from '@/components/Video';
 import Overview from '@/components/Overview';
 import Courses from '@/components/Courses';
 import Footer from '@/components/Footer';
+import Testimony from '@/components/Testimony';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Video />
         <Overview />
         <Courses />
+        <Testimony />
       </main>
       <Footer />
     </>

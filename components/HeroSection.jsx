@@ -1,17 +1,16 @@
-import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import HeroElement from './HeroElement';
 
 function HeroSection() {
   return (
-    <section className=' sm:px-5'>
+    <section className='px-7 sm:px-5'>
       <div
         style={{
           background:
             'linear-gradient(75.05deg, #CCF0F7 -4.65%, #E6F8FB 91.56%)',
         }}
-        className='container-xl  relative flex flex-row-reverse items-center justify-center rounded-[24px] px-[66px] pb-[104px] pt-[69px] xl:flex-col sm:mt-7 sm:px-3 sm:pb-20 sm:pt-0 '
+        className='container-xl  relative flex flex-row-reverse items-center justify-center rounded-[24px] px-[66px] pb-[104px] pt-[69px] xl:flex-col sm:mt-7 sm:px-4 sm:pb-20 sm:pt-0 '
       >
         <HeroElement />
         <div className='flex flex-1 flex-col items-start '>

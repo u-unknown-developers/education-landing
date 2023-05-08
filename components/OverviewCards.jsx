@@ -1,4 +1,3 @@
-import React from 'react';
 import { Roboto } from 'next/font/google';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -8,7 +7,7 @@ const roboto = Roboto({
   subsets: ['latin'],
 });
 
-function Cards() {
+function OverviewCards() {
   return (
     <ul className='mt-[90px] flex list-none flex-wrap justify-center gap-[54px]'>
       <li className='flex flex-col gap-[38px]'>
@@ -156,4 +155,4 @@ function Cards() {
   );
 }
 
-export default Cards;
+export default OverviewCards;
