@@ -13,7 +13,6 @@ function Testimony() {
           <h2 className='text-center text-4xl text-black-100'>
             توصيات الطلاب وآراءهم
           </h2>
-          <div className='h-[5px] w-[139px] rounded-[4px] bg-secondary'></div>
           <p className=' text-center text-lg  leading-8 text-gray/80'>
             &quot; استمع إلى أصوات طلابنا المتميزين وتعرّف على تجربتهم الفريدة
             مع منصتنا التعليمية.

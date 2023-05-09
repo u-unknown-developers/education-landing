@@ -32,7 +32,7 @@ const Courses = () => {
             className='xl:hidden'
           />
         </div>
-        <div className='max-w-[848px] xl:py-4 mid:max-w-[551px] md:max-w-[547px] sm:max-w-[258px]'>
+        <div className='flex max-w-[848px] flex-col gap-6 xl:py-4 mid:max-w-[551px] md:max-w-[547px] sm:max-w-[258px]'>
           <Swiper
             slidesPerView={1}
             spaceBetween={10}
@@ -115,13 +115,13 @@ const Courses = () => {
               />
             </SwiperSlide>
           </Swiper>
-          {/* <div className='controls relative py-6'>
-            <div className='mr-auto'>
-              <div className='swiper-button-prev'></div>
-              <div className='swiper-button-next'></div>
+          <div className='controls ml-6 flex flex-row-reverse  justify-center py-6'>
+            <div className='mr-auto flex items-center justify-center gap-5 '>
+              <div className='swiper-button-prev rotate-180  '></div>
+              <div className='swiper-button-next rotate-180'></div>
             </div>
             <div className='pagination ' ref={paginationRef}></div>
-          </div> */}
+          </div>
         </div>
       </div>
     </section>

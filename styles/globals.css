@@ -30,3 +30,28 @@
   background-image: url('/testimonyBg.svg');
   @apply h-full bg-contain bg-[center_top] bg-no-repeat;
 }
+.swiper-button-next,
+.swiper-button-prev {
+  position: static !important;
+}
+.swiper-button-next::after {
+  @apply rounded-full bg-primary fill-white;
+  content: '' !important;
+  min-width: 40px;
+  min-height: 40px;
+  background-image: url('/bx-arrow-forward.svg');
+
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  background-position: center;
+}
+.swiper-button-prev::after {
+  @apply rounded-full bg-white;
+  content: '' !important;
+  min-width: 40px;
+  min-height: 40px;
+  background-image: url('/bx-arrow-backward.svg');
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  background-position: center;
+}
