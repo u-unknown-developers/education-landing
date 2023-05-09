@@ -19,6 +19,7 @@ export default function App({ Component, pageProps }) {
           name='description'
           content='منصة مستر حسن ماهر لندريس الفيزياء لجميع مراحل الثانوية العامة'
         />
+        <link rel='icon' type='image/png' href='/logo.png' />
       </Head>
       <div className={ibm.className}>
         <Component {...pageProps} />

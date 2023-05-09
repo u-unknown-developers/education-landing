@@ -9,7 +9,7 @@ const roboto = Roboto({
 function TestimonyCard({ quote, name, score }) {
   return (
     <div
-      className={`flex ${roboto.className} flex-col gap-[10px] rounded-[20px] bg-white p-[14px]`}
+      className={`flex ${roboto.className}  relative top-24 flex-col items-center gap-[10px] rounded-[20px] p-[14px]`}
     >
       <Image
         src='/quotes.svg'
@@ -22,19 +22,18 @@ function TestimonyCard({ quote, name, score }) {
         {quote}
       </p>
       <div
-        style='box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-'
-        className=' max-h-[188px] max-w-[167px] rounded-lg bg-white'
+        style={{ boxShadow: ' 0px 4px 4px rgba(0, 0, 0, 0.25)' }}
+        className='flex max-h-[188px] max-w-[167px] flex-col  items-center gap-1 rounded-lg bg-white px-9 pb-3 pt-4 text-xl font-medium'
       >
         <Image
           src='https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1780&q=80'
           alt=''
-          width={230}
-          height={148}
-          className='h-[148px] w-[230px] rounded-b-[5px] rounded-t-[18px] '
+          width={96}
+          height={96}
+          className='h-[96px] w-[96px] rounded-full '
         />
-        <p className='text-black'>{name}</p>
-        <p className='text-gray'>{score}</p>
+        <p className=' text-black'>{name}</p>
+        <p className='text-gray  '>{score}</p>
       </div>
     </div>
   );

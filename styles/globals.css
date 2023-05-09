@@ -26,3 +26,7 @@
 .container-xl {
   max-width: 1440px;
 }
+.testimonial-slider {
+  background-image: url('/testimonyBg.svg');
+  @apply h-full bg-contain bg-[center_top] bg-no-repeat;
+}

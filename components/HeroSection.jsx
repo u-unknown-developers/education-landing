@@ -10,11 +10,11 @@ function HeroSection() {
           background:
             'linear-gradient(75.05deg, #CCF0F7 -4.65%, #E6F8FB 91.56%)',
         }}
-        className='container-xl  relative flex flex-row-reverse items-center justify-center rounded-[24px] px-[66px] pb-[104px] pt-[69px] xl:flex-col sm:mt-7 sm:px-4 sm:pb-20 sm:pt-0 '
+        className='container-xl relative flex flex-row-reverse items-center justify-center rounded-[24px] px-[66px] pb-[104px] pt-[69px] mid:flex-col sm:mt-7 sm:px-4 sm:pb-12 sm:pt-0 '
       >
         <HeroElement />
         <div className='flex flex-1 flex-col items-start '>
-          <h1 className='balance text-5xl font-bold leading-[68px]   text-black sm:text-4xl sm:leading-[62px]'>
+          <h1 className='balance text-5xl font-bold leading-[68px] text-black sm:text-4xl sm:leading-[62px]'>
             تعلم الفيزياء مع <br className='hidden sm:block' />
             حسن ماهر بأسلوب <br className='hidden sm:block' /> سهل و ممتع
           </h1>
