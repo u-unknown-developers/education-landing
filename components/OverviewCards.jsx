@@ -9,17 +9,19 @@ const roboto = Roboto({
 
 function OverviewCards() {
   return (
-    <ul className='mt-[90px] flex list-none flex-wrap justify-center gap-[54px]'>
+    <ul className='mt-[90px]  flex list-none flex-wrap justify-center gap-[54px] sm:mt-14 sm:gap-9'>
       <li className='flex flex-col gap-[38px]'>
-        <Link href='#'>
+        <Link className='flex gap-14' href='#'>
           <h3 className='flex items-center gap-[58px] text-2xl text-black'>
             الصف الأول الثانوي
-            <span
-              className={`font-900 font-sans text-[86px] leading-[32px] text-[#2624245E]/[0.37] ${roboto.className}`}
-            >
-              ١
-            </span>
           </h3>
+          <Image
+            src='/1.svg'
+            alt=''
+            width={29}
+            height={32}
+            className='h-[32px] w-[29px]  rounded-[24px]'
+          />
         </Link>
         <Link href='#'>
           <Image

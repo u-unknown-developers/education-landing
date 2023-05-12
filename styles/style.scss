@@ -1,6 +1,3 @@
-// @layer components {
-//   @import 'components';
-// }
 body {
   min-height: 100vh;
   direction: rtl;
@@ -8,10 +5,15 @@ body {
 
 .pagination {
   .swiper-pagination-bullet {
-    @apply h-[15px] w-[15px];
+    @apply h-[8px] w-[25px] rounded bg-gray-200 opacity-100;
 
     &-active-main {
-      @apply bg-primary;
+      @apply h-[8px] w-[54px] bg-primary;
     }
   }
+  @apply absolute mx-auto;
+}
+
+.pagination-courses {
+  @apply relative right-[-8.8rem] mx-0 mt-3;
 }

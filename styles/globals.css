@@ -7,11 +7,6 @@
   height: 100%;
 }
 
-.swiper-slide {
-  /* border: 1px solid red;
-  max-width: 33%; */
-}
-
 .container {
   max-width: 1380px;
   width: 100%;
@@ -30,26 +25,30 @@
   background-image: url('/testimonyBg.svg');
   @apply h-full bg-contain bg-[center_top] bg-no-repeat;
 }
+
 .swiper-button-next,
 .swiper-button-prev {
   position: static !important;
 }
+
 .swiper-button-next::after {
   @apply rounded-full bg-primary fill-white;
   content: '' !important;
   min-width: 40px;
   min-height: 40px;
   background-image: url('/bx-arrow-forward.svg');
-
+  box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.17);
   background-repeat: no-repeat;
   background-size: 24px 24px;
   background-position: center;
 }
+
 .swiper-button-prev::after {
   @apply rounded-full bg-white;
   content: '' !important;
   min-width: 40px;
   min-height: 40px;
+  box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.17);
   background-image: url('/bx-arrow-backward.svg');
   background-repeat: no-repeat;
   background-size: 24px 24px;

@@ -1,18 +1,18 @@
-import Features from '@/components/Features';
-import HeroSection from '@/components/HeroSection';
-import Header from '@/components/Header';
-import Video from '@/components/Video';
-import Overview from '@/components/Overview';
-import Courses from '@/components/Courses';
+import Courses from '@/components/CoursesSection';
+import Features from '@/components/FeaturesSection';
 import Footer from '@/components/Footer';
-import Testimony from '@/components/Testimony';
+import Header from '@/components/Header';
+import Hero from '@/components/HeroSection';
+import Overview from '@/components/OverviewSection';
+import Testimony from '@/components/TestimonySection';
+import Video from '@/components/VideoSection';
 
 export default function Home() {
   return (
     <>
       <Header />
       <main>
-        <HeroSection />
+        <Hero />
         <Features />
         <Video />
         <Overview />
