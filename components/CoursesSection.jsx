@@ -1,4 +1,5 @@
-import Image from 'next/image';
+import books from '@/public/animation/books.json';
+import { Player } from '@lottiefiles/react-lottie-player';
 import { useRef } from 'react';
 import { Navigation, Pagination } from 'swiper';
 import 'swiper/css';
@@ -6,8 +7,6 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import CoursesCard from './CoursesCard';
-import books from '@/public/animation/books.json';
-import { Player } from '@lottiefiles/react-lottie-player';
 import SlideLeft from './utils/SlideLeft';
 
 const Courses = () => {
@@ -21,8 +20,8 @@ const Courses = () => {
       className='courses mx-auto mt-[280px] max-w-[1256px] rounded-3xl px-4 lg:px-6 sm:mt-28 sm:px-5'
     >
       <SlideLeft>
-        <div className='  flex  justify-between  py-9 pl-[44px] pr-[53px] xl:flex-col xl:items-center lg:flex-col  '>
-          <div className='flex flex-col gap-6  '>
+        <div className='flex justify-between py-9 pl-[44px] pr-[53px] xl:flex-col xl:items-center lg:flex-col'>
+          <div className='flex flex-col gap-6'>
             <h2 className='text-4xl text-black  xl:text-center'>
               الكورسات الاكثر
               <br /> مشاهدة
@@ -112,15 +111,18 @@ const Courses = () => {
                 />
               </SwiperSlide>
             </Swiper>
-            <div className='controls  ml-6 flex flex-row-reverse  justify-center py-6'>
-              <div className='mr-auto mt-2 flex gap-5 '>
-                <div className='swiper-button-prev rotate-180  '></div>
+            <div className='controls  ml-6 flex flex-row-reverse  justify-between py-6'>
+              <div className='mt-2 flex gap-5'>
+                <div className='swiper-button-prev rotate-180'></div>
                 <div className='swiper-button-next rotate-180'></div>
               </div>
-              <div
-                className='pagination pagination-courses'
-                ref={paginationRef}
-              ></div>
+              <div className='relative flex justify-center'>
+                <div
+                  className='pagination pagination-courses mt-2'
+                  ref={paginationRef}
+                  style={{ position: 'relative' }}
+                ></div>
+              </div>
             </div>
           </div>
         </div>

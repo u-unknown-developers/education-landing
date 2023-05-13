@@ -3,10 +3,10 @@ import { Autoplay } from 'swiper';
 import 'swiper/css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import TestimonyCard from './TestimonyCard';
+import Pop from './utils/Pop';
 import SlideLeft from './utils/SlideLeft';
 import SlideRight from './utils/SlideRight';
 import SlideUp from './utils/SlideUp';
-import Pop from './utils/Pop';
 
 function Testimony() {
   return (
@@ -33,7 +33,7 @@ function Testimony() {
                   src='/testimonyRight.svg'
                   width={244}
                   height={290}
-                  alt='testimonials'
+                  alt='صورة الطالب'
                 />
               </div>
             </SlideLeft>
@@ -96,12 +96,12 @@ function Testimony() {
               </SwiperSlide>
             </Swiper>
             <SlideRight>
-              <div className=' xl:hidden'>
+              <div className='xl:hidden'>
                 <Image
                   src='/testimonyLeft.svg'
                   width={258}
                   height={301}
-                  alt='testimonials'
+                  alt='شهادة الطلاب'
                 />
               </div>
             </SlideRight>

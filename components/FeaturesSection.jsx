@@ -18,7 +18,6 @@ function Features() {
 
   return (
     <section className='mt-[115px]  sm:mt-16'>
-      {/* check dependencies and clean things up */}
       <div className='container flex flex-col text-center'>
         <SlideUp>
           <div className='flex flex-col text-center'>
@@ -33,6 +32,7 @@ function Features() {
         <div className='relative mt-10  sm:mt-6'>
           <SlideLeft>
             <Swiper
+              className='cursor-grab'
               slidesPerView={1}
               pagination={{
                 type: 'bullets',
@@ -83,7 +83,7 @@ function Features() {
                     <FaLightbulb className='h-8 w-8' />
                   </div>
                   <h3 className='h4 mb-5 mt-6'>
-                    الامتحانات والأسئلة التفاعلية{' '}
+                    الامتحانات والأسئلة التفاعلية
                   </h3>
                   <p>
                     توفر المنصة امتحانات وأسئلة تفاعلية يومياً لمساعدة الطلاب في

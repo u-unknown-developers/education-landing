@@ -1,9 +1,8 @@
+import play from '@/public/play.png';
 import Image from 'next/image';
 import Link from 'next/link';
 import HeroElement from './HeroElement';
-import play from '@/public/play.png';
 import Reveal from './utils/Reveal';
-import SlideRight from '@/components/utils/SlideLeft';
 
 function Hero() {
   return (
@@ -43,7 +42,7 @@ function Hero() {
                 href='#video'
                 className='flex items-center gap-3 hover:scale-110 hover:underline'
               >
-                <Image className='w-11' src={play} alt=' شغل' />
+                <Image className='w-11' src={play} alt=' ابدأ' />
                 <p className='text-lg font-medium text-black '>اعرف المزيد</p>
               </Link>
             </div>

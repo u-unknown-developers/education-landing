@@ -1,12 +1,6 @@
-import { Roboto } from 'next/font/google';
 import Image from 'next/image';
 import Link from 'next/link';
-
-const roboto = Roboto({
-  weight: ['700', '900'],
-  subsets: ['latin'],
-});
-
+import checkMark from '@/public/check.svg';
 function OverviewCards() {
   return (
     <ul className='mt-[90px]  flex list-none flex-wrap justify-center gap-[54px] sm:mt-14 sm:gap-9'>
@@ -26,7 +20,7 @@ function OverviewCards() {
         <Link href='#'>
           <Image
             src='https://images.unsplash.com/photo-1609705025038-60908171cf5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80'
-            alt=''
+            alt='غلاف'
             width={381}
             height={202}
             className='h-[202px] rounded-[24px]'
@@ -34,25 +28,25 @@ function OverviewCards() {
         </Link>
         <ul className='flex list-none flex-col justify-start gap-[17px]'>
           <li className='flex gap-5 hover:scale-110'>
-            <img src='/check.svg' alt='' />
+            <Image src={checkMark} alt='' />
             <p className='text-xl  font-medium leading-8 text-gray'>
               الفيزياء الكهربيه
             </p>
           </li>
           <li className='flex gap-5 hover:scale-110'>
-            <img src='/check.svg' alt='' />
+            <Image src={checkMark} alt='' />
             <p className='text-xl  font-medium leading-8 text-gray'>
               الفيزياء الميكانيكية
             </p>
           </li>
           <li className='flex gap-5 hover:scale-110'>
-            <img src='/check.svg' alt='' />
+            <Image src={checkMark} alt='' />
             <p className='text-xl  font-medium leading-8 text-gray'>
               الفيزياء الكهربيه
             </p>
           </li>
           <li className='flex gap-5 hover:scale-110'>
-            <img src='/check.svg' alt='' />
+            <Image src={checkMark} alt='' />
             <p className='text-xl  font-medium leading-8 text-gray'>
               الفيزياء الكهربيه
             </p>
@@ -75,7 +69,7 @@ function OverviewCards() {
         <Link href='#'>
           <Image
             src='https://images.unsplash.com/photo-1446776858070-70c3d5ed6758?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80'
-            alt=''
+            alt='غلاف'
             width={381}
             height={202}
             className='h-[202px] rounded-[24px]'
@@ -83,25 +77,25 @@ function OverviewCards() {
         </Link>
         <ul className='flex list-none flex-col justify-start gap-[17px]'>
           <li className='flex gap-5 hover:scale-110'>
-            <img src='/check.svg' alt='' />
+            <Image src={checkMark} alt='' />
             <p className='text-xl  font-medium leading-8 text-gray'>
               الفيزياء الكهربيه
             </p>
           </li>
           <li className='flex gap-5 hover:scale-110'>
-            <img src='/check.svg' alt='' />
+            <Image src={checkMark} alt='' />
             <p className='text-xl  font-medium leading-8 text-gray'>
               الفيزياء الميكانيكية
             </p>
           </li>
           <li className='flex gap-5 hover:scale-110'>
-            <img src='/check.svg' alt='' />
+            <Image src={checkMark} alt='' />
             <p className='text-xl  font-medium leading-8 text-gray'>
               الفيزياء الكهربيه
             </p>
           </li>
           <li className='flex gap-5 hover:scale-110'>
-            <img src='/check.svg' alt='' />
+            <Image src={checkMark} alt='' />
             <p className='text-xl  font-medium leading-8 text-gray'>
               الفيزياء الكهربيه
             </p>
@@ -124,7 +118,7 @@ function OverviewCards() {
         <Link href='#'>
           <Image
             src='https://images.unsplash.com/photo-1605818245175-a2cdda1e7b0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80'
-            alt=''
+            alt='غلاف'
             width={381}
             height={202}
             className='h-[202px] rounded-[24px]'
@@ -132,25 +126,25 @@ function OverviewCards() {
         </Link>
         <ul className='flex list-none flex-col justify-start gap-[17px]'>
           <li className='flex gap-5 hover:scale-110'>
-            <img src='/check.svg' alt='' />
+            <Image src={checkMark} alt='' />
             <p className='text-xl  font-medium leading-8 text-gray'>
               الفيزياء الكهربيه
             </p>
           </li>
           <li className='flex gap-5 hover:scale-110'>
-            <img src='/check.svg' alt='' />
+            <Image src={checkMark} alt='' />
             <p className='text-xl  font-medium leading-8 text-gray'>
               الفيزياء الميكانيكية
             </p>
           </li>
           <li className='flex gap-5 hover:scale-110'>
-            <img src='/check.svg' alt='' />
+            <Image src={checkMark} alt='' />
             <p className='text-xl  font-medium leading-8 text-gray'>
               الفيزياء الكهربيه
             </p>
           </li>
           <li className='flex gap-5 hover:scale-110'>
-            <img src='/check.svg' alt='' />
+            <Image src={checkMark} alt='' />
             <p className='text-xl  font-medium leading-8 text-gray'>
               الفيزياء الكهربيه
             </p>

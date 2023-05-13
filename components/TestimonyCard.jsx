@@ -13,7 +13,7 @@ function TestimonyCard({ quote, name, score }) {
     >
       <Image
         src='/quotes.svg'
-        alt='quotes'
+        alt=''
         width={63}
         height={48}
         className='mb-6 h-[48px] w-[63px] sm:mb-3'

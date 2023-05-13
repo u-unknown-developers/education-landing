@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { FaTwitter, FaFacebook, FaYoutube } from 'react-icons/fa';
+import { FaFacebook, FaTwitter, FaYoutube } from 'react-icons/fa';
 import Pop from './utils/Pop';
 import SlideUp from './utils/SlideUp';
 
@@ -18,7 +18,7 @@ const Footer = () => {
           <div className='mb-4'>
             <Image
               src='/slogan.png'
-              alt=''
+              alt='و به نستعين'
               width={258}
               height={144}
               className='h-[144px] w-[258px] '
@@ -57,7 +57,7 @@ const Footer = () => {
         <SlideUp>
           <small className=' text-xl font-medium sm:text-lg '>
             برمجة وتصميم فريق :
-            <span className='  text-secondary'> Unknown Squad </span>
+            <span className=' text-secondary'> Unknown Squad </span>
           </small>
         </SlideUp>
       </div>
