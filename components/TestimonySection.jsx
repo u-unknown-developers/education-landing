@@ -113,3 +113,8 @@ function Testimony() {
 }
 
 export default Testimony;
+export async function getStaticProps() {
+  return {
+    props: {},
+  };
+}

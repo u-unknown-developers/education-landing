@@ -124,3 +124,8 @@ function Features() {
 }
 
 export default Features;
+export async function getStaticProps() {
+  return {
+    props: {},
+  };
+}

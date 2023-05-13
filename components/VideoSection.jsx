@@ -44,3 +44,8 @@ function Video() {
 }
 
 export default Video;
+export async function getStaticProps() {
+  return {
+    props: {},
+  };
+}

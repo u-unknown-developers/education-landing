@@ -132,3 +132,8 @@ const Courses = () => {
 };
 
 export default Courses;
+export async function getStaticProps() {
+  return {
+    props: {},
+  };
+}

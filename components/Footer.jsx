@@ -66,3 +66,8 @@ const Footer = () => {
 };
 
 export default Footer;
+export async function getStaticProps() {
+  return {
+    props: {},
+  };
+}

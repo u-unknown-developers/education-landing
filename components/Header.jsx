@@ -31,3 +31,9 @@ const Header = () => {
 };
 
 export default Header;
+
+export async function getStaticProps() {
+  return {
+    props: {},
+  };
+}

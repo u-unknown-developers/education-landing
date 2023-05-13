@@ -54,3 +54,9 @@ function Hero() {
 }
 
 export default Hero;
+
+export async function getStaticProps() {
+  return {
+    props: {},
+  };
+}

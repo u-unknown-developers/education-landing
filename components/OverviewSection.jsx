@@ -23,3 +23,8 @@ function Overview() {
 }
 
 export default Overview;
+export async function getStaticProps() {
+  return {
+    props: {},
+  };
+}
