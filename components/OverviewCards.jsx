@@ -12,15 +12,15 @@ function OverviewCards() {
     <ul className='mt-[90px]  flex list-none flex-wrap justify-center gap-[54px] sm:mt-14 sm:gap-9'>
       <li className='flex flex-col gap-[38px]'>
         <Link className='flex gap-14' href='#'>
-          <h3 className='flex items-center gap-[58px] text-2xl text-black'>
+          <h3 className='flex items-center gap-[58px] pr-4 text-2xl text-black'>
             الصف الأول الثانوي
           </h3>
           <Image
             src='/1.svg'
             alt=''
-            width={29}
-            height={32}
-            className='h-[32px] w-[29px]  rounded-[24px]'
+            width={60}
+            height={60}
+            className='h-[60px] w-[77px]  rounded-[24px]'
           />
         </Link>
         <Link href='#'>
@@ -60,15 +60,17 @@ function OverviewCards() {
         </ul>
       </li>
       <li className='flex flex-col gap-[38px]'>
-        <Link href='#'>
-          <h3 className='flex items-center gap-[58px] text-2xl text-black'>
+        <Link className='flex gap-14' href='#'>
+          <h3 className='flex items-center gap-[58px] pr-4 text-2xl text-black'>
             الصف الثاني الثانوي
-            <span
-              className={`font-900 font-sans text-[86px] leading-[32px] text-[#2624245E]/[0.37] ${roboto.className}`}
-            >
-              ٢
-            </span>
           </h3>
+          <Image
+            src='/2.svg'
+            alt=''
+            width={60}
+            height={60}
+            className='h-[60px] w-[77px]  rounded-[24px]'
+          />
         </Link>
         <Link href='#'>
           <Image
@@ -107,15 +109,17 @@ function OverviewCards() {
         </ul>
       </li>
       <li className='flex flex-col gap-[38px]'>
-        <Link href='#'>
-          <h3 className='flex items-center gap-[58px] text-2xl text-black'>
+        <Link className='flex gap-14' href='#'>
+          <h3 className='flex items-center gap-[58px] pr-4 text-2xl text-black'>
             الصف الثالث الثانوي
-            <span
-              className={`font-900 font-sans text-[86px] leading-[32px] text-[#2624245E]/[0.37] ${roboto.className}`}
-            >
-              ٣
-            </span>
           </h3>
+          <Image
+            src='/3.svg'
+            alt=''
+            width={60}
+            height={60}
+            className='h-[60px] w-[77px]  rounded-[24px]'
+          />
         </Link>
         <Link href='#'>
           <Image

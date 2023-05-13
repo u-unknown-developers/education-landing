@@ -1,13 +1,28 @@
 import hassan from '@/public/Group2.png';
-import Image from 'next/image';
-import bulb from '@/public/animation/bulb.json';
 import astro from '@/public/animation/astro.json';
 import atom from '@/public/animation/atom.json';
+import bulb from '@/public/animation/bulb.json';
 import { Player } from '@lottiefiles/react-lottie-player';
+import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 function HeroElement() {
   return (
-    <div className='heroElement relative top-[-40px] w-full flex-1  sm:max-w-[300px]'>
+    <motion.div
+      initial={{ opacity: 0, scale: 0.5 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{
+        duration: 0.3,
+        ease: [0, 0.71, 0.2, 1.01],
+        scale: {
+          type: 'spring',
+          damping: 6,
+          stiffness: 100,
+          restDelta: 0.001,
+        },
+      }}
+      className='heroElement relative top-[-40px] w-full flex-1  sm:max-w-[300px]'
+    >
       <Image
         className=' w-full'
         width={617}
@@ -34,7 +49,7 @@ function HeroElement() {
         loop
         src={astro}
       />
-    </div>
+    </motion.div>
   );
 }
 

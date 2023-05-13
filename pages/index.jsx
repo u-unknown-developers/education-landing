@@ -6,7 +6,6 @@ import Hero from '@/components/HeroSection';
 import Overview from '@/components/OverviewSection';
 import Testimony from '@/components/TestimonySection';
 import Video from '@/components/VideoSection';
-
 export default function Home() {
   return (
     <>
