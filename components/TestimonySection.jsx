@@ -42,7 +42,7 @@ function Testimony() {
               modules={[Autoplay]}
               autoplay={{ delay: 3000 }}
               loop={true}
-              className='testimonial-slider mx-auto   max-w-[420px] cursor-grab '
+              className='testimonial-slider mx-auto   max-w-[390px] cursor-grab '
             >
               <SwiperSlide className=' text-center'>
                 <div className='px-8 py-6 xl:px-12 lg:px-20 md:px-10 sm:py-12'>

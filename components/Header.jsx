@@ -19,7 +19,7 @@ const Header = () => {
             </Link>
             <Link
               href='#'
-              className='rounded-2xl bg-primary px-[31px]  py-[7px]  text-center text-lg font-bold text-white	 sm:text-sm'
+              className='rounded-2xl border-2 border-solid border-primary bg-primary px-[31px] py-[7px] text-center  text-lg  font-bold text-white hover:bg-white hover:text-primary sm:text-sm'
             >
               انشاء حساب
             </Link>
