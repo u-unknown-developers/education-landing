@@ -11,7 +11,7 @@ import SlideUp from './utils/SlideUp';
 function Testimony() {
   return (
     <section className='testimony mt-36 sm:mt-20'>
-      <div className='container'>
+      <div className='container '>
         <SlideUp>
           <div className='flex flex-col items-center justify-center gap-[31px] font-medium'>
             <h2 className='text-center text-4xl text-black-100'>

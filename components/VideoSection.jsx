@@ -18,6 +18,7 @@ function Video() {
 
           <Pop>
             <iframe
+              loading='lazy'
               className='h-[518px] w-[45vw] rounded-[20px] shadow-lg lg:h-[400px] md:h-[500] md:w-auto'
               width='560'
               height='315'

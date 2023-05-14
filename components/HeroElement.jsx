@@ -21,7 +21,7 @@ function HeroElement() {
           restDelta: 0.001,
         },
       }}
-      className='heroElement relative top-[-40px] w-full flex-1  sm:max-w-[300px]'
+      className='heroElement relative top-[-40px] w-full flex-1 sm:left-4 sm:max-w-[300px]'
     >
       <Image
         className=' w-full'

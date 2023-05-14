@@ -12,11 +12,11 @@ function Hero() {
           background:
             'linear-gradient(75.05deg, #CCF0F7 -4.65%, #E6F8FB 91.56%)',
         }}
-        className='container-xl  relative flex flex-row-reverse items-center justify-center rounded-[24px] px-[66px] pb-[104px] pt-[69px] mid:flex-col sm:mt-7 sm:px-4 sm:pb-12 sm:pt-0 '
+        className='container-xl  relative flex flex-row-reverse items-center justify-center rounded-[24px] px-[66px] pb-[104px] pt-[69px] mid:flex-col sm:mt-7 sm:px-4 sm:pb-7 sm:pt-0 '
       >
         <HeroElement />
 
-        <div className='heroText flex flex-1 flex-col items-start '>
+        <div className='heroText flex flex-1 flex-col items-start sm:relative sm:-top-5 '>
           <Reveal>
             <h1 className='balance text-5xl font-bold leading-[68px] text-black sm:text-4xl sm:leading-[62px]'>
               تعلم الفيزياء مع <br className='hidden sm:block' />
@@ -36,7 +36,9 @@ function Hero() {
                 href='#'
                 className='rounded-2xl border-2 border-solid border-secondary bg-secondary text-center text-lg  font-bold text-white hover:bg-white	 hover:text-secondary'
               >
-                <p className=' px-[38px] py-[9px] '>اشترك الان</p>
+                <p className=' px-[38px] py-[9px] sm:px-6 sm:py-1 '>
+                  اشترك الان
+                </p>
               </Link>
               <Link
                 href='#video'
