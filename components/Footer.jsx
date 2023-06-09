@@ -56,8 +56,7 @@ const Footer = () => {
         </SlideUp>
         <SlideUp>
           <small className=' text-xl font-medium sm:text-lg '>
-            برمجة وتصميم فريق :
-            <span className=' text-secondary'> Unknown Squad </span>
+            برمجة وتصميم :<span className=' text-secondary'> محمد هشام </span>
           </small>
         </SlideUp>
       </div>
