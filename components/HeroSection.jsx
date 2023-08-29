@@ -18,9 +18,9 @@ function Hero() {
 
         <div className='heroText flex flex-1 flex-col items-start sm:relative sm:-top-5 '>
           <Reveal>
-            <h1 className='balance text-5xl font-bold leading-[68px] text-black sm:text-4xl sm:leading-[62px]'>
-              تعلم الفيزياء مع <br className='hidden sm:block' />
-              حسن ماهر بأسلوب <br className='hidden sm:block' /> سهل و ممتع
+            <h1 className='text-5xl font-bold leading-[68px] text-black sm:text-4xl sm:leading-[62px]'>
+              تعلم الفيزياء <br className='hidden sm:block' />
+              بأسلوب <br className='hidden sm:block' /> سهل و ممتع
             </h1>
           </Reveal>
           <Reveal>

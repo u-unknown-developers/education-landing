@@ -22,10 +22,11 @@ function Video() {
               className='h-[518px] w-[45vw] rounded-[20px] shadow-lg lg:h-[400px] md:h-[500] md:w-auto'
               width='560'
               height='315'
-              src='https://www.youtube.com/embed/33f63ckG-h8'
+              src='https://www.youtube.com/embed/w2ILA2P_n6M?si=hfKvHDZZ2--gGLHL'
               title='YouTube video player'
+              frameborder='0'
               allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-              allowFullScreen
+              allowfullscreen
             ></iframe>
           </Pop>
         </div>

@@ -1,4 +1,4 @@
-import hassan from '@/public/Group2.png';
+import hassan from '@/public/Group.png';
 import astro from '@/public/animation/astro.json';
 import atom from '@/public/animation/atom.json';
 import bulb from '@/public/animation/bulb.json';
@@ -25,8 +25,8 @@ function HeroElement() {
     >
       <Image
         className=' w-full'
-        width={617}
-        height={642}
+        width={2100}
+        height={2200}
         src={hassan}
         alt='حسن ماهر'
         priority
